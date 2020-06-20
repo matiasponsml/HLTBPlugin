@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HLTBPlugin", "Launchbox Test\HLTBPlugin.csproj", "{89DC32EC-0C4A-4526-8A92-75E547CD9839}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{36C3971D-1840-47CF-90F6-184659DB7F03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89DC32EC-0C4A-4526-8A92-75E547CD9839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89DC32EC-0C4A-4526-8A92-75E547CD9839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89DC32EC-0C4A-4526-8A92-75E547CD9839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89DC32EC-0C4A-4526-8A92-75E547CD9839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C3971D-1840-47CF-90F6-184659DB7F03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C3971D-1840-47CF-90F6-184659DB7F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C3971D-1840-47CF-90F6-184659DB7F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C3971D-1840-47CF-90F6-184659DB7F03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {157597B6-8980-4D75-BCCC-0E1A4145FAF5}
+	EndGlobalSection
+EndGlobal

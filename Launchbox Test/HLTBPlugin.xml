@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<HLTBPlugin>
+    <MainStoryLength>true</MainStoryLength>
+    <MainExtraLength>true</MainExtraLength>
+    <CompletionistLength>true</CompletionistLength>
+    <MainStoryFieldName>Main Story Length</MainStoryFieldName>
+    <MainExtraFieldName>Main + Extra Length</MainExtraFieldName>
+    <CompletionistFieldName>Completionist Length</CompletionistFieldName>
+</HLTBPlugin>
