@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Net.Http;
 using System.Collections.Specialized;
 using System.Net;
 
@@ -30,6 +29,9 @@ namespace HLTBPlugin
                 values["queryString"] = gameTitle;
                 values["sorthead"] = "popular";
                 values["t"] = "games";
+
+                webClient.Headers.Add("Content-Type", "application/x-www-form-urlencoded");
+                webClient.Headers.Add("user-agent", "Mozilla/4.0 (compatible; MSIE 6.0; " + "Windows NT 5.2; .NET CLR 1.0.3705;)");
 
                 var response = webClient.UploadValues("https://howlongtobeat.com/search_results?page=1", "POST", values);
 
